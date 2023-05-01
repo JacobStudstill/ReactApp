@@ -63,6 +63,8 @@ const Content = () => {
 
             <p>Check console log for more info</p>
             <img src={photo} alt="Code" />
+            <p></p>
+            <a className="repo" href="https://github.com/JacobStudstill/ReactApp"> Github repo </a>
         </div>
     )
 }
