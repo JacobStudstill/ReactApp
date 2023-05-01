@@ -24,7 +24,7 @@ const Content = () => {
     }
 
     const onClick = () => {
-        setName('no name')
+        setName('Jacob Studstill')
         setAge('almost 27')
         setLocation('Orlando, FL')
     }
