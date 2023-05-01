@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JacobStudstill/ReactApp/static/css/main.073c9b0a.css",
+    "main.js": "/JacobStudstill/ReactApp/static/js/main.adfc37b6.js",
+    "index.html": "/JacobStudstill/ReactApp/index.html",
+    "main.073c9b0a.css.map": "/JacobStudstill/ReactApp/static/css/main.073c9b0a.css.map",
+    "main.adfc37b6.js.map": "/JacobStudstill/ReactApp/static/js/main.adfc37b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.adfc37b6.js"
+  ]
+}
