@@ -3,6 +3,7 @@ import photo from './photo/code.png'
 
 
 const Content = () => {
+    
     const [name, setName] = useState('Jacob')
     const [age, setAge] = useState('26')
     const [location, setLocation] = useState('FL')
@@ -11,6 +12,7 @@ const Content = () => {
     const [drink, setDrink] = useState('water')
     const [drinkInfo, setDrinkInfo] = useState('Water is pretty refreshing')
 
+    // onclick with set the drink to a different kind of drink which will then be used to console log a response.
     const onClickGatorade = () => {
         setDrink('gatorade')
     }
@@ -23,12 +25,14 @@ const Content = () => {
         setDrink('protein shake')
     }
 
+    //This function uses useState to change the text upon button click.
     const onClick = () => {
         setName('Jacob Studstill')
         setAge('almost 27')
         setLocation('Orlando, FL')
     }
 
+    //Switch case that will console log upon clicking the corresponding button. drink is defined as water by default
     switch (drink) {
         case 'gatorade': {
             console.log('Gatorade is good on a hot day')
@@ -45,6 +49,7 @@ const Content = () => {
         default: console.log ('Your favorite drink must be water as well')
     }
 
+    //This is used to change the header on load. Will console log old header before the header is changed to verify it changed on render.
     useEffect(() => {
         console.log(header)
         setHeader('Working with useState and useEffect')
