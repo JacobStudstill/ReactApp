@@ -1,4 +1,5 @@
 import { useState, useEffect, useReducer } from "react";
+import photo from './photo/code.png'
 
 
 const Content = () => {
@@ -41,6 +42,7 @@ const Content = () => {
             console.log('Protein shakes are good if you need protein')
             break
         }
+        default: console.log ('Your favorite drink must be water as well')
     }
 
     useEffect(() => {
@@ -60,6 +62,7 @@ const Content = () => {
             <button onClick={onClickProteinShake}>Protein Shake</button>
 
             <p>Check console log for more info</p>
+            <img src={photo} alt="Code" />
         </div>
     )
 }
